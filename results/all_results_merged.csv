@@ -1,0 +1,106 @@
+method,seed,fold,accuracy,n_features,runtime_sec,feature_names,in_loop_explainability,audit_ccc,audit_pr
+EW_MOGA,0,0,0.9893758300132802,6,773.6209707260132,"Skewness, Kurtosis, Energy, ASM, Correlation, Coarseness",1.0,0.6285714285714287,0.9850613329114712
+EW_MOGA,0,1,0.9907038512616202,5,772.9695689678192,"Mean, Entropy, Skewness, Kurtosis, Correlation",1.0,0.5499999999999999,0.9468027086950648
+EW_MOGA,0,2,0.9893617021276596,6,917.9428596496582,"Variance, Entropy, Skewness, Kurtosis, Contrast, Correlation",1.0,0.4000000000000001,0.9928571428571428
+EW_MOGA,0,3,0.9920212765957448,4,945.0920355319976,"Standard Deviation, Entropy, Kurtosis, Dissimilarity",1.0,0.5,1.0
+EW_MOGA,0,4,0.9893617021276596,9,848.2996118068695,"Variance, Standard Deviation, Entropy, Kurtosis, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",1.0,0.6888452190376201,0.962055215724057
+EW_MOGA,1,0,0.9827357237715804,7,860.8674714565277,"Standard Deviation, Entropy, Skewness, Kurtosis, ASM, Correlation, Coarseness",1.0,0.648809523809524,0.9864732855787676
+EW_MOGA,1,1,0.9893758300132802,5,864.6562750339508,"Mean, Entropy, Skewness, Kurtosis, ASM",1.0,0.75,0.9971428571428572
+EW_MOGA,1,2,0.985372340425532,6,734.0413825511932,"Mean, Kurtosis, Contrast, Energy, Correlation, Coarseness",1.0,0.6857142857142858,0.9427233096930806
+EW_MOGA,1,3,0.9986702127659576,5,847.9761290550232,"Mean, Variance, Kurtosis, ASM, Correlation",1.0,0.6166666666666666,0.8952450503824035
+EW_MOGA,1,4,0.990691489361702,5,693.7027151584625,"Mean, Entropy, Kurtosis, Contrast, Correlation",1.0,0.4499999999999999,0.9734013543475324
+EW_MOGA,2,0,0.9920318725099602,7,573.0480449199677,"Variance, Entropy, Skewness, Kurtosis, Contrast, Homogeneity, Correlation",1.0,0.4821428571428572,0.9137891800512626
+EW_MOGA,2,1,0.9907038512616202,4,556.7052776813507,"Mean, Kurtosis, ASM, Correlation",1.0,0.7000000000000001,0.9595971479124138
+EW_MOGA,2,2,0.9920212765957448,5,638.8762834072113,"Variance, Kurtosis, Energy, Homogeneity, Correlation",1.0,0.5833333333333333,0.9867006771737662
+EW_MOGA,2,3,0.9920212765957448,7,560.3490123748779,"Mean, Standard Deviation, Skewness, Kurtosis, Energy, Correlation, Coarseness",1.0,0.630952380952381,0.9369537606600286
+EW_MOGA,2,4,0.988031914893617,5,553.7264850139618,"Standard Deviation, Entropy, Skewness, Contrast, Coarseness",1.0,1.0,0.9983606557377048
+Standard_GA,0,0,0.99468791500664,6,1163.9922132492063,"Mean, Skewness, Kurtosis, Contrast, ASM, Correlation",,-0.019047619047619,0.9085714285714286
+Standard_GA,0,1,0.99468791500664,7,1133.946878671646,"Mean, Standard Deviation, Skewness, Kurtosis, Energy, ASM, Correlation",,-0.0952380952380952,0.9428571428571432
+Standard_GA,0,2,0.9946808510638298,6,327.4711558818817,"Mean, Variance, Skewness, Contrast, ASM, Coarseness",,-0.1428571428571428,0.9085714285714288
+Standard_GA,0,3,0.990691489361702,8,399.6621656417847,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Correlation, Coarseness",,0.6071428571428573,0.8095238095238095
+Standard_GA,0,4,0.988031914893617,7,320.8402488231659,"Standard Deviation, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity",,0.1071428571428571,0.9642857142857146
+Standard_GA,1,0,0.9933598937583,10,411.91543316841125,"Variance, Standard Deviation, Skewness, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",,0.3555555555555555,0.8933333333333332
+Standard_GA,1,1,0.99601593625498,9,360.3232326507568,"Mean, Entropy, Skewness, Kurtosis, Energy, ASM, Dissimilarity, Correlation, Coarseness",,-0.2083333333333333,0.78
+Standard_GA,1,2,0.9946808510638298,8,365.2867543697357,"Mean, Variance, Standard Deviation, Skewness, Kurtosis, Contrast, Energy, Correlation",,-0.1706349206349206,0.8523809523809526
+Standard_GA,1,3,0.990691489361702,11,448.4935927391052,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Correlation",,-0.1409090909090909,0.8581818181818182
+Standard_GA,1,4,0.9893617021276596,6,346.1547920703888,"Mean, Variance, Entropy, Kurtosis, Contrast, Coarseness",,0.2476190476190476,0.8857142857142858
+Standard_GA,2,0,0.9933598937583,8,455.8640325069428,"Standard Deviation, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",,-0.119047619047619,0.8761904761904763
+Standard_GA,2,1,0.99867197875166,5,352.2140600681305,"Mean, Skewness, Kurtosis, ASM, Correlation",,0.4499999999999999,0.7999999999999999
+Standard_GA,2,2,0.9960106382978724,6,363.8274114131928,"Variance, Standard Deviation, Skewness, Contrast, Energy, Correlation",,0.3333333333333333,0.7257142857142856
+Standard_GA,2,3,0.9893617021276596,8,332.9727964401245,"Mean, Variance, Standard Deviation, Skewness, Kurtosis, Contrast, Energy, Coarseness",,-0.2896825396825397,0.7666666666666668
+Standard_GA,2,4,0.9893617021276596,7,339.1891076564789,"Mean, Variance, Kurtosis, Contrast, Energy, Correlation, Coarseness",,0.1845238095238095,0.9857142857142858
+NSGA2_Parsimony,0,0,0.9893758300132802,4,257.04154658317566,"Mean, Variance, Kurtosis, Energy",,0.5,1.0
+NSGA2_Parsimony,0,1,0.99601593625498,4,267.8351857662201,"Mean, Kurtosis, Energy, Correlation",,0.3,1.0
+NSGA2_Parsimony,0,2,0.990691489361702,6,318.9021964073181,"Mean, Variance, Skewness, Contrast, ASM, Coarseness",,0.8761904761904762,1.0
+NSGA2_Parsimony,0,3,0.9867021276595744,4,329.77357029914856,"Standard Deviation, Skewness, Contrast, Energy",,1.0,1.0
+NSGA2_Parsimony,0,4,0.988031914893617,5,319.53132677078247,"Variance, Kurtosis, ASM, Homogeneity, Correlation",,0.1166666666666666,0.6799999999999999
+NSGA2_Parsimony,1,0,0.9920318725099602,3,257.8173518180847,"Mean, Entropy, Kurtosis",,0.0,1.0
+NSGA2_Parsimony,1,1,0.99468791500664,4,322.98957800865173,"Mean, Variance, Entropy, Kurtosis",,0.0333333333333333,1.0
+NSGA2_Parsimony,1,2,0.990691489361702,5,318.3220865726471,"Standard Deviation, Entropy, Kurtosis, Contrast, Correlation",,-0.15,0.9199999999999996
+NSGA2_Parsimony,1,3,0.990691489361702,4,260.2801601886749,"Variance, Standard Deviation, Entropy, Kurtosis",,0.3,0.92
+NSGA2_Parsimony,1,4,0.988031914893617,5,331.6297957897186,"Variance, Kurtosis, Contrast, ASM, Correlation",,0.2833333333333332,0.8399999999999999
+NSGA2_Parsimony,2,0,0.9907038512616202,7,268.663046836853,"Mean, Standard Deviation, Entropy, Skewness, Kurtosis, Dissimilarity, Coarseness",,0.5833333333333334,0.7642857142857143
+NSGA2_Parsimony,2,1,0.99734395750332,5,271.6204462051392,"Mean, Skewness, Kurtosis, Energy, Correlation",,0.2666666666666666,0.98
+NSGA2_Parsimony,2,2,0.9933510638297872,6,344.98958802223206,"Mean, Variance, Kurtosis, Contrast, Energy, Correlation",,0.5904761904761905,0.8628571428571428
+NSGA2_Parsimony,2,3,0.9867021276595744,8,321.09991121292114,"Mean, Variance, Standard Deviation, Skewness, Kurtosis, Contrast, Energy, Correlation",,0.3730158730158731,0.9904761904761904
+NSGA2_Parsimony,2,4,0.985372340425532,3,252.42992210388184,"Variance, Entropy, Kurtosis",,0.0,1.0
+SHAP_RF,0,0,0.8419654714475432,6,4.900413274765015,"Mean, Mean, Mean, Variance, Variance, Variance",,-9.251858538542969e-18,-0.0742857142857142
+SHAP_RF,0,1,0.8313413014608234,6,5.00092339515686,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0095238095238095,0.7257142857142858
+SHAP_RF,0,2,0.8497340425531915,6,4.761528968811035,"Mean, Mean, Mean, Variance, Variance, Variance",,0.5428571428571428,-0.5200000000000001
+SHAP_RF,0,3,0.8218085106382979,6,4.605853080749512,"Mean, Mean, Mean, Variance, Variance, Variance",,0.1333333333333333,0.1657142857142857
+SHAP_RF,0,4,0.8231382978723404,6,4.76618242263794,"Mean, Mean, Mean, Variance, Variance, Variance",,1.8503717077085938e-17,0.4285714285714285
+SHAP_RF,1,0,0.849933598937583,6,5.041297435760498,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0761904761904762,0.0285714285714285
+SHAP_RF,1,1,0.8180610889774237,6,5.007912397384644,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0285714285714285,0.2
+SHAP_RF,1,2,0.8444148936170213,6,4.824563026428223,"Mean, Mean, Mean, Variance, Variance, Variance",,0.4476190476190477,-0.28
+SHAP_RF,1,3,0.8377659574468085,6,4.520984649658203,"Mean, Mean, Mean, Variance, Variance, Variance",,0.1047619047619047,0.3257142857142857
+SHAP_RF,1,4,0.8404255319148937,6,4.769044399261475,"Mean, Mean, Mean, Variance, Variance, Variance",,-0.1523809523809524,-0.2114285714285714
+SHAP_RF,2,0,0.8539176626826029,6,4.974378347396851,"Mean, Mean, Mean, Variance, Variance, Variance",,-0.2571428571428572,0.44
+SHAP_RF,2,1,0.8207171314741036,6,4.844516515731812,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0095238095238095,0.4057142857142858
+SHAP_RF,2,2,0.8444148936170213,6,4.707982063293457,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0761904761904762,-0.2685714285714285
+SHAP_RF,2,3,0.8257978723404256,6,4.4405059814453125,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0285714285714285,0.36
+SHAP_RF,2,4,0.8231382978723404,6,4.797926425933838,"Mean, Mean, Mean, Variance, Variance, Variance",,-0.0571428571428571,0.3485714285714286
+Boruta,0,0,0.9867197875166004,12,44.16830849647522,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.4580419580419581,0.9626373626373624
+Boruta,0,1,0.9907038512616202,12,68.9817042350769,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.4500591434455126,0.9351648351648352
+Boruta,0,2,0.9840425531914894,12,82.86274838447571,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.4568764568764569,0.9516483516483516
+Boruta,0,3,0.990691489361702,12,81.75114226341248,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.4300699300699301,0.9593406593406592
+Boruta,0,4,0.9893617021276596,12,82.57901859283447,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.4862693545634958,0.968131868131868
+Boruta,1,0,0.9827357237715804,12,77.18689584732056,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.2942655503824894,0.9285714285714284
+Boruta,1,1,0.9827357237715804,12,78.06934404373169,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.4419762243776593,0.9329670329670328
+Boruta,1,2,0.9827127659574468,12,81.76513671875,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.3969420151083763,0.956043956043956
+Boruta,1,3,0.9946808510638298,12,84.22631907463074,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.4125874125874126,0.9428571428571428
+Boruta,1,4,0.985372340425532,12,81.45646238327026,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.4383775734613519,0.9626373626373624
+Boruta,2,0,0.9893758300132802,12,79.5147852897644,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.3356643356643357,0.9329670329670328
+Boruta,2,1,0.9880478087649402,12,79.2106626033783,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.4475524475524475,0.8857142857142858
+Boruta,2,2,0.9893617021276596,12,83.3469603061676,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.3737137097341962,0.9384615384615383
+Boruta,2,3,0.9893617021276596,12,78.56686782836914,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.3700885004887397,0.9494505494505494
+Boruta,2,4,0.9813829787234044,12,79.93428921699524,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.387671122442665,0.9505494505494504
+RFE,0,0,0.9840637450199204,6,7.702409982681274,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.6476190476190476,0.9386222199641684
+RFE,0,1,0.9867197875166004,6,7.823975801467895,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.5047619047619049,0.9324386609418052
+RFE,0,2,0.9827127659574468,6,10.383371114730837,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.5619047619047619,0.8904115660481569
+RFE,0,3,0.9867021276595744,6,10.394136667251589,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.4476190476190476,0.9073395221000964
+RFE,0,4,0.9867021276595744,6,10.413897275924684,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.3428571428571428,0.9168472522559996
+RFE,1,0,0.9800796812749004,6,8.483555555343628,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.3523809523809524,0.8954798912276191
+RFE,1,1,0.9827357237715804,6,9.218037843704224,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.580952380952381,0.9026629702455709
+RFE,1,2,0.9827127659574468,6,7.7888524532318115,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.4857142857142857,0.9026157188672403
+RFE,1,3,0.9893617021276596,6,9.92278242111206,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.4476190476190476,0.9288446122952876
+RFE,1,4,0.9840425531914894,6,7.962589740753174,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.5142857142857143,0.912643370166345
+RFE,2,0,0.9827357237715804,6,10.294798374176024,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.580952380952381,0.9624425601423384
+RFE,2,1,0.9853917662682604,6,7.923599481582642,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.6571428571428571,0.9353290849396478
+RFE,2,2,0.9867021276595744,6,10.244962453842165,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.4761904761904762,0.9440441689005477
+RFE,2,3,0.985372340425532,6,8.496098518371582,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.4571428571428571,0.9478399052840908
+RFE,2,4,0.9813829787234044,6,10.21643614768982,"Entropy, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity",,0.580952380952381,0.8944936441255127
+mRMR,0,0,0.9827357237715804,6,10.3246488571167,"Energy, Mean, Homogeneity, Entropy, ASM, Dissimilarity",,0.4476190476190476,0.996103896103896
+mRMR,0,1,0.9867197875166004,6,10.465934038162231,"Energy, Homogeneity, Entropy, ASM, Dissimilarity, Skewness",,0.5238095238095238,0.9766233766233766
+mRMR,0,2,0.9827127659574468,6,10.338823795318604,"Energy, Homogeneity, Entropy, ASM, Dissimilarity, Skewness",,0.4285714285714286,0.9844155844155844
+mRMR,0,3,0.985372340425532,6,10.302483797073364,"Energy, Homogeneity, Entropy, ASM, Dissimilarity, Skewness",,0.5523809523809525,0.9766233766233764
+mRMR,0,4,0.9867021276595744,6,10.792216539382936,"Energy, Homogeneity, Entropy, ASM, Dissimilarity, Skewness",,0.4476190476190476,0.9441558441558442
+mRMR,1,0,0.9787516600265604,6,8.865904092788696,"Energy, Homogeneity, Entropy, ASM, Dissimilarity, Skewness",,0.7619047619047619,0.979220779220779
+mRMR,1,1,0.9787516600265604,6,9.9936683177948,"Energy, Mean, Homogeneity, Entropy, ASM, Dissimilarity",,0.6285714285714287,0.9827735338278972
+mRMR,1,2,0.9827127659574468,6,10.77998161315918,"Energy, Mean, Homogeneity, Entropy, ASM, Dissimilarity",,0.5333333333333333,0.9572552317282784
+mRMR,1,3,0.990691489361702,6,10.140268802642822,"Energy, Mean, Homogeneity, Entropy, ASM, Dissimilarity",,0.5904761904761905,0.9948051948051948
+mRMR,1,4,0.9840425531914894,6,10.845085859298706,"Energy, Mean, Homogeneity, Entropy, ASM, Dissimilarity",,0.4095238095238095,0.983116883116883
+mRMR,2,0,0.9827357237715804,6,9.18321180343628,"Energy, Homogeneity, Entropy, ASM, Dissimilarity, Skewness",,0.6857142857142858,0.97012987012987
+mRMR,2,1,0.9827357237715804,6,9.659159660339355,"Energy, Homogeneity, Entropy, ASM, Dissimilarity, Skewness",,0.5904761904761905,0.9571428571428572
+mRMR,2,2,0.985372340425532,6,10.750831127166748,"Energy, Homogeneity, Entropy, ASM, Dissimilarity, Skewness",,0.7238095238095239,0.974025974025974
+mRMR,2,3,0.9787234042553192,6,9.93956971168518,"Energy, Mean, Homogeneity, Entropy, ASM, Dissimilarity",,0.7999999999999999,0.9909090909090909
+mRMR,2,4,0.9747340425531916,6,9.851938486099243,"Energy, Mean, Homogeneity, Entropy, ASM, Dissimilarity",,0.5619047619047619,0.9974025974025974

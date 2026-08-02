@@ -1,0 +1,106 @@
+variant,use_sci,use_fid,use_lfs,seed,fold,accuracy,n_features,runtime_sec,feature_names,audit_ccc,audit_pr
+SCI_only,True,False,False,0,0,0.9907038512616202,6,299.2753686904907,"Mean, Skewness, Kurtosis, Energy, ASM, Correlation",0.3333333333333333,0.9745360521657418
+SCI_only,True,False,False,0,1,0.9907038512616202,5,394.7394771575928,"Mean, Entropy, Skewness, Kurtosis, Correlation",0.5499999999999999,0.9468027086950647
+SCI_only,True,False,False,0,2,0.9893617021276596,6,436.32137298583984,"Variance, Entropy, Skewness, Kurtosis, Contrast, Correlation",0.4000000000000001,0.9928571428571429
+SCI_only,True,False,False,0,3,0.9906914893617021,5,391.33441495895386,"Standard Deviation, Entropy, Kurtosis, Energy, Dissimilarity",0.55,0.982414962888052
+SCI_only,True,False,False,0,4,0.9867021276595744,6,264.60592675209045,"Variance, Skewness, Kurtosis, ASM, Dissimilarity, Correlation",0.31428571428571433,0.9836161427216247
+SCI_only,True,False,False,1,0,0.9880478087649402,4,264.980765581131,"Mean, Variance, Entropy, Skewness",0.5666666666666667,0.9967213114754099
+SCI_only,True,False,False,1,1,0.9893758300132802,5,260.1010661125183,"Mean, Entropy, Skewness, Kurtosis, ASM",0.75,0.9971428571428571
+SCI_only,True,False,False,1,2,0.988031914893617,7,355.46360516548157,"Variance, Standard Deviation, Kurtosis, Energy, ASM, Correlation, Coarseness",0.5845712463477223,0.9878353749919757
+SCI_only,True,False,False,1,3,0.9986702127659575,5,431.92981028556824,"Mean, Variance, Kurtosis, ASM, Correlation",0.6166666666666666,0.8952450503824035
+SCI_only,True,False,False,1,4,0.9893617021276596,4,479.2498815059662,"Skewness, Contrast, ASM, Correlation",0.8666666666666666,0.9788029873327077
+SCI_only,True,False,False,2,0,0.9907038512616202,6,307.57312536239624,"Variance, Skewness, Contrast, Energy, Correlation, Coarseness",0.8761904761904762,0.9823132008971662
+SCI_only,True,False,False,2,1,0.9907038512616202,4,270.6033854484558,"Entropy, Kurtosis, Homogeneity, Correlation",0.8666666666666666,0.9224729843494177
+SCI_only,True,False,False,2,2,0.9893617021276596,7,331.8847088813782,"Standard Deviation, Entropy, Skewness, Energy, Dissimilarity, Correlation, Coarseness",0.6488095238095238,0.9971428571428571
+SCI_only,True,False,False,2,3,0.9920212765957447,7,429.5408058166504,"Mean, Standard Deviation, Skewness, Kurtosis, ASM, Correlation, Coarseness",0.6488095238095238,0.9627700713964737
+SCI_only,True,False,False,2,4,0.988031914893617,5,368.20173025131226,"Standard Deviation, Entropy, Skewness, Contrast, Coarseness",0.9999999999999999,0.9983606557377049
+FID_only,False,True,False,0,0,0.9893758300132802,7,321.7860541343689,"Mean, Entropy, Skewness, Kurtosis, ASM, Correlation, Coarseness",0.7500000000000001,0.99
+FID_only,False,True,False,0,1,0.9933598937583001,8,353.5143144130707,"Mean, Variance, Entropy, Skewness, Kurtosis, Homogeneity, Correlation, Coarseness",0.6825396825396827,0.9466521421795523
+FID_only,False,True,False,0,2,0.9893617021276596,6,343.97210359573364,"Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Correlation",0.4000000000000001,0.9928571428571429
+FID_only,False,True,False,0,3,0.9920212765957447,5,192.84525084495544,"Standard Deviation, Entropy, Kurtosis, ASM, Dissimilarity",0.5333333333333333,0.9823132008971662
+FID_only,False,True,False,0,4,0.9893617021276596,9,192.49883484840393,"Variance, Standard Deviation, Entropy, Kurtosis, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",0.6888452190376201,0.962055215724057
+FID_only,False,True,False,1,0,0.9827357237715804,7,284.3163192272186,"Standard Deviation, Entropy, Skewness, Kurtosis, ASM, Correlation, Coarseness",0.648809523809524,0.9864732855787676
+FID_only,False,True,False,1,1,0.9867197875166003,8,235.20087456703186,"Mean, Variance, Standard Deviation, Entropy, Kurtosis, Energy, Homogeneity, Correlation",0.6904761904761906,0.9416820004950119
+FID_only,False,True,False,1,2,0.988031914893617,7,182.69733881950378,"Variance, Standard Deviation, Kurtosis, Energy, ASM, Correlation, Coarseness",0.5845712463477223,0.9878353749919757
+FID_only,False,True,False,1,3,0.9986702127659575,8,183.5404407978058,"Variance, Standard Deviation, Skewness, Kurtosis, Contrast, ASM, Dissimilarity, Coarseness",0.5595238095238096,0.9708206686930092
+FID_only,False,True,False,1,4,0.9906914893617021,5,181.6987500190735,"Mean, Entropy, Kurtosis, Contrast, Correlation",0.44999999999999996,0.9734013543475324
+FID_only,False,True,False,2,0,0.9907038512616202,8,188.31490921974182,"Mean, Variance, Entropy, Skewness, Contrast, Energy, Correlation, Coarseness",0.6984126984126986,0.9576544923510257
+FID_only,False,True,False,2,1,0.9893758300132802,9,308.21416759490967,"Mean, Skewness, Kurtosis, Contrast, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",0.6861111111111112,0.8352392085173939
+FID_only,False,True,False,2,2,0.9906914893617021,8,313.6629056930542,"Mean, Variance, Standard Deviation, Skewness, Kurtosis, ASM, Homogeneity, Correlation",0.45634920634920634,0.9701394288358784
+FID_only,False,True,False,2,3,0.9920212765957447,8,317.58048272132874,"Mean, Entropy, Skewness, Kurtosis, Contrast, Dissimilarity, Correlation, Coarseness",0.5238095238095238,0.9650457537101731
+FID_only,False,True,False,2,4,0.988031914893617,5,310.44833636283875,"Standard Deviation, Skewness, Kurtosis, Contrast, ASM",0.7333333333333333,0.9957142857142858
+LFS_only,False,False,True,0,0,0.9893758300132802,6,452.1335701942444,"Mean, Variance, Standard Deviation, Kurtosis, Energy, Correlation",0.5142857142857143,0.9098757280229368
+LFS_only,False,False,True,0,1,0.9933598937583001,8,488.68341517448425,"Mean, Variance, Entropy, Skewness, Kurtosis, Homogeneity, Correlation, Coarseness",0.6825396825396827,0.9466521421795523
+LFS_only,False,False,True,0,2,0.9893617021276596,5,461.9757752418518,"Standard Deviation, Skewness, Kurtosis, Contrast, ASM",0.5166666666666666,0.9914285714285714
+LFS_only,False,False,True,0,3,0.9906914893617021,8,477.0475881099701,"Mean, Standard Deviation, Entropy, Kurtosis, Contrast, Energy, ASM, Dissimilarity",0.4404761904761905,0.9512888552703762
+LFS_only,False,False,True,0,4,0.9906914893617021,8,515.9220821857452,"Mean, Variance, Entropy, Kurtosis, Homogeneity, Dissimilarity, Correlation, Coarseness",0.7460317460317462,0.9233962546424556
+LFS_only,False,False,True,1,0,0.9880478087649402,8,483.76868176460266,"Variance, Standard Deviation, Skewness, Kurtosis, Contrast, ASM, Correlation, Coarseness",0.5952380952380953,0.9178995534807702
+LFS_only,False,False,True,1,1,0.9893758300132802,5,429.76934361457825,"Mean, Entropy, Skewness, Kurtosis, ASM",0.75,0.9971428571428571
+LFS_only,False,False,True,1,2,0.9853723404255319,8,476.05831480026245,"Mean, Variance, Standard Deviation, Entropy, Kurtosis, ASM, Homogeneity, Coarseness",0.6841603653987516,0.9870129870129869
+LFS_only,False,False,True,1,3,0.9986702127659575,8,489.90466952323914,"Variance, Standard Deviation, Skewness, Kurtosis, Contrast, ASM, Dissimilarity, Coarseness",0.5595238095238096,0.9708206686930092
+LFS_only,False,False,True,1,4,0.988031914893617,7,480.9102520942688,"Mean, Standard Deviation, Entropy, Skewness, Kurtosis, Homogeneity, Correlation",0.5476190476190478,0.975177678180923
+LFS_only,False,False,True,2,0,0.9907038512616202,8,506.8443548679352,"Mean, Variance, Entropy, Skewness, Contrast, ASM, Correlation, Coarseness",0.7698412698412699,0.9636363636363635
+LFS_only,False,False,True,2,1,0.9893758300132802,9,489.01627135276794,"Mean, Skewness, Kurtosis, Contrast, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",0.6861111111111112,0.8352392085173939
+LFS_only,False,False,True,2,2,0.9906914893617021,8,497.0530495643616,"Mean, Variance, Standard Deviation, Skewness, Kurtosis, ASM, Homogeneity, Correlation",0.45634920634920634,0.9701394288358784
+LFS_only,False,False,True,2,3,0.9893617021276596,5,454.3606610298157,"Variance, Entropy, Skewness, Kurtosis, Correlation",0.44999999999999996,0.9674835446514752
+LFS_only,False,False,True,2,4,0.988031914893617,5,455.3827610015869,"Variance, Skewness, Kurtosis, Contrast, ASM",0.7333333333333333,0.9914285714285714
+SCI_FID,True,True,False,0,0,0.9893758300132802,5,613.3070919513702,"Mean, Entropy, Skewness, Correlation, Coarseness",0.9499999999999997,0.9983606557377049
+SCI_FID,True,True,False,0,1,0.9907038512616202,5,606.8916254043579,"Mean, Entropy, Skewness, Kurtosis, Correlation",0.5499999999999999,0.9468027086950647
+SCI_FID,True,True,False,0,2,0.9893617021276596,6,612.1252822875977,"Variance, Entropy, Skewness, Kurtosis, Contrast, Correlation",0.4000000000000001,0.9928571428571429
+SCI_FID,True,True,False,0,3,0.9920212765957447,5,591.1454734802246,"Standard Deviation, Entropy, Kurtosis, ASM, Dissimilarity",0.5333333333333333,0.9823132008971662
+SCI_FID,True,True,False,0,4,0.9893617021276596,8,627.819473028183,"Mean, Entropy, Skewness, Contrast, Homogeneity, Dissimilarity, Correlation, Coarseness",0.8928571428571429,0.9189142461631732
+SCI_FID,True,True,False,1,0,0.9907038512616202,7,589.9136230945587,"Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Correlation, Coarseness",0.6428571428571429,0.9893304284359103
+SCI_FID,True,True,False,1,1,0.9893758300132802,5,593.234573841095,"Mean, Entropy, Skewness, Kurtosis, ASM",0.75,0.9971428571428571
+SCI_FID,True,True,False,1,2,0.9853723404255319,6,584.5011940002441,"Mean, Kurtosis, Contrast, Energy, Correlation, Coarseness",0.6857142857142858,0.9427233096930806
+SCI_FID,True,True,False,1,3,0.9986702127659575,7,611.8415367603302,"Mean, Variance, Skewness, Kurtosis, Contrast, Energy, Coarseness",0.8035714285714288,0.8972214936433076
+SCI_FID,True,True,False,1,4,0.9906914893617021,5,611.2538330554962,"Mean, Entropy, Kurtosis, Contrast, Correlation",0.44999999999999996,0.9734013543475324
+SCI_FID,True,True,False,2,0,0.9933598937583001,5,615.1157474517822,"Mean, Variance, Entropy, Skewness, Correlation",0.6166666666666667,0.9537626761577942
+SCI_FID,True,True,False,2,1,0.9880478087649402,7,601.8428580760956,"Variance, Entropy, Skewness, Homogeneity, Dissimilarity, Correlation, Coarseness",0.8630952380952382,0.9985714285714286
+SCI_FID,True,True,False,2,2,0.9893617021276596,6,600.9281723499298,"Standard Deviation, Skewness, ASM, Homogeneity, Correlation, Coarseness",0.8571428571428572,0.950811020161718
+SCI_FID,True,True,False,2,3,0.9920212765957447,8,616.1700508594513,"Mean, Entropy, Skewness, Kurtosis, Contrast, Dissimilarity, Correlation, Coarseness",0.5238095238095238,0.9650457537101731
+SCI_FID,True,True,False,2,4,0.988031914893617,5,613.8227331638336,"Standard Deviation, Entropy, Skewness, Contrast, Coarseness",0.9999999999999999,0.9983606557377049
+SCI_LFS,True,False,True,0,0,0.9907038512616202,6,744.7846465110779,"Mean, Skewness, Kurtosis, Energy, ASM, Correlation",0.3333333333333333,0.9745360521657418
+SCI_LFS,True,False,True,0,1,0.9907038512616202,5,753.1503353118896,"Mean, Entropy, Skewness, Kurtosis, Correlation",0.5499999999999999,0.9468027086950647
+SCI_LFS,True,False,True,0,2,0.9893617021276596,6,745.7029759883881,"Variance, Entropy, Skewness, Kurtosis, Contrast, Correlation",0.4000000000000001,0.9928571428571429
+SCI_LFS,True,False,True,0,3,0.9920212765957447,4,721.0068557262421,"Standard Deviation, Entropy, Kurtosis, Dissimilarity",0.5,1.0
+SCI_LFS,True,False,True,0,4,0.9893617021276596,6,759.5386476516724,"Variance, Standard Deviation, Entropy, Kurtosis, Homogeneity, Correlation",0.6285714285714287,0.9270101362330081
+SCI_LFS,True,False,True,1,0,0.9880478087649402,4,712.9358518123627,"Mean, Standard Deviation, Entropy, Skewness",0.5666666666666667,0.9950819672131148
+SCI_LFS,True,False,True,1,1,0.9893758300132802,5,702.0838661193848,"Mean, Entropy, Skewness, Kurtosis, ASM",0.75,0.9971428571428571
+SCI_LFS,True,False,True,1,2,0.9853723404255319,4,707.7189862728119,"Variance, Kurtosis, Energy, Coarseness",0.8999999999999999,1.0
+SCI_LFS,True,False,True,1,3,0.9986702127659575,5,718.204069852829,"Mean, Variance, Kurtosis, ASM, Correlation",0.6166666666666666,0.8952450503824035
+SCI_LFS,True,False,True,1,4,0.9867021276595744,5,732.1638822555542,"Skewness, Kurtosis, ASM, Homogeneity, Correlation",0.7333333333333333,0.9868852459016393
+SCI_LFS,True,False,True,2,0,0.9933598937583001,5,757.6999228000641,"Mean, Standard Deviation, Entropy, Skewness, Correlation",0.5833333333333333,0.9395536320113284
+SCI_LFS,True,False,True,2,1,0.9907038512616202,4,705.6079368591309,"Mean, Kurtosis, ASM, Correlation",0.7000000000000001,0.9595971479124138
+SCI_LFS,True,False,True,2,2,0.9920212765957447,5,744.4331948757172,"Standard Deviation, Kurtosis, Energy, Homogeneity, Correlation",0.5833333333333333,0.9850613329114711
+SCI_LFS,True,False,True,2,3,0.9920212765957447,6,734.5783421993256,"Mean, Skewness, Kurtosis, ASM, Dissimilarity, Correlation",0.3333333333333333,0.9681792582113072
+SCI_LFS,True,False,True,2,4,0.988031914893617,5,731.2893280982971,"Standard Deviation, Entropy, Skewness, Contrast, Coarseness",0.9999999999999999,0.9983606557377049
+FID_LFS,False,True,True,0,0,0.9907038512616202,7,613.3428416252136,"Mean, Standard Deviation, Entropy, Skewness, Kurtosis, Correlation, Coarseness",0.6845238095238096,0.9248587115682245
+FID_LFS,False,True,True,0,1,0.9933598937583001,8,626.8863785266876,"Mean, Variance, Entropy, Skewness, Kurtosis, Homogeneity, Correlation, Coarseness",0.6825396825396827,0.9466521421795523
+FID_LFS,False,True,True,0,2,0.9906914893617021,5,605.9796607494354,"Standard Deviation, Skewness, Kurtosis, Contrast, Energy",0.6166666666666666,0.7605757094701786
+FID_LFS,False,True,True,0,3,0.9920212765957447,5,582.7667870521545,"Standard Deviation, Entropy, Kurtosis, ASM, Dissimilarity",0.5333333333333333,0.9823132008971662
+FID_LFS,False,True,True,0,4,0.9893617021276596,9,623.9263014793396,"Variance, Standard Deviation, Entropy, Kurtosis, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",0.6888452190376201,0.962055215724057
+FID_LFS,False,True,True,1,0,0.9880478087649402,8,624.6020925045013,"Variance, Standard Deviation, Skewness, Kurtosis, Contrast, ASM, Correlation, Coarseness",0.5952380952380953,0.9178995534807702
+FID_LFS,False,True,True,1,1,0.9893758300132802,5,592.7728395462036,"Mean, Entropy, Skewness, Kurtosis, ASM",0.75,0.9971428571428571
+FID_LFS,False,True,True,1,2,0.9867021276595744,5,585.1907470226288,"Mean, Variance, Standard Deviation, Kurtosis, Energy",0.39999999999999997,0.9628571428571429
+FID_LFS,False,True,True,1,3,1.0,7,611.867832660675,"Variance, Standard Deviation, Entropy, Kurtosis, Contrast, Dissimilarity, Coarseness",0.6369047619047621,0.9896103896103895
+FID_LFS,False,True,True,1,4,0.9867021276595744,8,632.566018819809,"Variance, Skewness, Kurtosis, Contrast, ASM, Homogeneity, Dissimilarity, Correlation",0.5793650793650794,0.9229506589845341
+FID_LFS,False,True,True,2,0,0.9907038512616202,8,617.4890387058258,"Mean, Standard Deviation, Entropy, Skewness, Contrast, Energy, Correlation, Coarseness",0.6904761904761907,0.94850019514561
+FID_LFS,False,True,True,2,1,0.9893758300132802,9,640.7289311885834,"Mean, Skewness, Kurtosis, Contrast, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",0.6861111111111112,0.8352392085173939
+FID_LFS,False,True,True,2,2,0.9906914893617021,8,606.0549159049988,"Mean, Variance, Standard Deviation, Skewness, Kurtosis, Energy, Homogeneity, Correlation",0.4603174603174604,0.9643215638826058
+FID_LFS,False,True,True,2,3,0.9906914893617021,6,611.3392405509949,"Mean, Standard Deviation, Skewness, Kurtosis, ASM, Coarseness",0.6476190476190476,0.9971428571428571
+FID_LFS,False,True,True,2,4,0.9853723404255319,7,622.0589928627014,"Mean, Variance, Entropy, Kurtosis, Contrast, Correlation, Coarseness",0.7321428571428573,0.9507384104191763
+Full_SCI_FID_LFS,True,True,True,0,0,0.9893758300132802,5,877.9069390296936,"Entropy, Skewness, Kurtosis, Correlation, Coarseness",0.7999999999999999,0.9934426229508195
+Full_SCI_FID_LFS,True,True,True,0,1,0.9907038512616202,5,910.0437877178192,"Mean, Entropy, Skewness, Kurtosis, Correlation",0.5499999999999999,0.9468027086950647
+Full_SCI_FID_LFS,True,True,True,0,2,0.988031914893617,7,863.0211522579193,"Mean, Variance, Entropy, Kurtosis, Contrast, Correlation, Coarseness",0.648809523809524,0.9928571428571429
+Full_SCI_FID_LFS,True,True,True,0,3,0.9906914893617021,5,875.4436166286469,"Standard Deviation, Entropy, Kurtosis, Energy, Dissimilarity",0.55,0.982414962888052
+Full_SCI_FID_LFS,True,True,True,0,4,0.9893617021276596,9,912.7930135726929,"Variance, Standard Deviation, Entropy, Kurtosis, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",0.6888452190376201,0.962055215724057
+Full_SCI_FID_LFS,True,True,True,1,0,0.9907038512616202,7,892.17174243927,"Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Correlation, Coarseness",0.6428571428571429,0.9893304284359103
+Full_SCI_FID_LFS,True,True,True,1,1,0.9893758300132802,5,871.4056661128998,"Mean, Entropy, Skewness, Kurtosis, ASM",0.75,0.9971428571428571
+Full_SCI_FID_LFS,True,True,True,1,2,0.9867021276595744,8,881.8624470233917,"Variance, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity, Coarseness",0.6325730638114498,0.9236827805520995
+Full_SCI_FID_LFS,True,True,True,1,3,0.9986702127659575,5,885.5778086185455,"Mean, Variance, Kurtosis, ASM, Correlation",0.6166666666666666,0.8952450503824035
+Full_SCI_FID_LFS,True,True,True,1,4,0.9920212765957447,8,909.1067757606506,"Mean, Standard Deviation, Skewness, Contrast, Energy, Homogeneity, Correlation, Coarseness",0.8571428571428572,0.9397130959751216
+Full_SCI_FID_LFS,True,True,True,2,0,0.9920318725099602,6,886.0603485107422,"Standard Deviation, Skewness, Kurtosis, Energy, Correlation, Coarseness",0.7238095238095239,0.9852721057451947
+Full_SCI_FID_LFS,True,True,True,2,1,0.9880478087649402,7,868.3725707530975,"Variance, Entropy, Skewness, Homogeneity, Dissimilarity, Correlation, Coarseness",0.8630952380952382,0.9985714285714286
+Full_SCI_FID_LFS,True,True,True,2,2,0.9893617021276596,6,892.6613733768463,"Standard Deviation, Skewness, ASM, Homogeneity, Correlation, Coarseness",0.8571428571428572,0.950811020161718
+Full_SCI_FID_LFS,True,True,True,2,3,0.9920212765957447,7,720.7038950920105,"Mean, Standard Deviation, Skewness, Kurtosis, ASM, Correlation, Coarseness",0.6488095238095238,0.9627700713964737
+Full_SCI_FID_LFS,True,True,True,2,4,0.988031914893617,5,554.8656942844391,"Standard Deviation, Entropy, Skewness, Contrast, Coarseness",0.9999999999999999,0.9983606557377049

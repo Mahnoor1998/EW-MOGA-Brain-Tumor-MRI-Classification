@@ -1,0 +1,5 @@
+Metric,Brain Tumor MRI (Original),Wisconsin Breast Cancer (External)
+Accuracy,0.9902 ± 0.0035,0.9766 ± 0.0168
+CCC,0.6210 ± 0.1451,0.7026 ± 0.0897
+PR,0.9651 ± 0.0324,0.9872 ± 0.0070
+Features Selected,5.73 ± 1.33,12.33 ± 1.45

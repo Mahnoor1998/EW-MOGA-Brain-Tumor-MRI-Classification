@@ -1,0 +1,15 @@
+method,seed,fold,accuracy,n_features,runtime_sec,feature_names,in_loop_explainability,audit_ccc,audit_pr
+Standard_GA,0,0,0.9907038512616202,6,262.1968915462494,"Mean, Entropy, Skewness, Kurtosis, Correlation, Coarseness",,0.6857142857142858,0.9867006771737662
+Standard_GA,0,1,0.9933598937583001,7,281.4668083190918,"Mean, Skewness, Kurtosis, ASM, Homogeneity, Correlation, Coarseness",,0.6845238095238096,0.8629485154439405
+Standard_GA,0,2,0.9867021276595744,6,240.49905967712402,"Variance, Entropy, Skewness, Kurtosis, Contrast, ASM",,0.7904761904761904,0.979220779220779
+Standard_GA,0,3,0.9920212765957447,4,378.2364547252655,"Variance, Kurtosis, ASM, Dissimilarity",,0.49999999999999994,0.9852459016393442
+Standard_GA,0,4,0.9906914893617021,10,348.9252586364746,"Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity, Correlation",,0.424497640613116,0.9119726902949747
+Standard_GA,1,0,0.9880478087649402,8,391.0559916496277,"Variance, Standard Deviation, Skewness, Kurtosis, Contrast, ASM, Correlation, Coarseness",,0.5952380952380953,0.9178995534807702
+Standard_GA,1,1,0.9893758300132802,5,371.7123739719391,"Mean, Entropy, Skewness, Kurtosis, Energy",,0.6833333333333332,0.9857142857142858
+Standard_GA,1,2,0.9800531914893617,5,228.06720089912415,"Variance, Standard Deviation, Energy, Correlation, Coarseness",,0.9499999999999998,0.9950819672131148
+Standard_GA,1,3,0.9986702127659575,6,231.50074338912964,"Mean, Variance, Entropy, Kurtosis, Dissimilarity, Correlation",,0.3904761904761905,0.9521004998323843
+Standard_GA,1,4,0.9827127659574468,9,233.6897418498993,"Mean, Variance, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Coarseness",,0.5898206423348594,0.976726218980291
+Standard_GA,2,0,0.9907038512616202,8,229.492196559906,"Mean, Variance, Skewness, Energy, ASM, Homogeneity, Correlation, Coarseness",,0.6838743625412688,0.981385035698237
+Standard_GA,2,1,0.9893758300132802,9,233.49630451202393,"Mean, Variance, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",,0.663888888888889,0.8646295975050459
+Standard_GA,2,2,0.9893617021276596,5,229.71738195419312,"Mean, Standard Deviation, ASM, Homogeneity, Correlation",,0.9499999999999998,0.983530999492014
+Standard_GA,2,3,0.9920212765957447,9,263.73511385917664,"Mean, Variance, Standard Deviation, Skewness, Kurtosis, Contrast, ASM, Correlation, Coarseness",,0.5396808793179638,0.9465116279069768

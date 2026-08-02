@@ -1,0 +1,46 @@
+method,seed,fold,accuracy,n_features,runtime_sec,feature_names,in_loop_explainability,audit_ccc,audit_pr
+Standard_GA,0,0,0.99468791500664,6,1163.9922132492063,"Mean, Skewness, Kurtosis, Contrast, ASM, Correlation",,-0.019047619047619,0.9085714285714286
+Standard_GA,0,1,0.99468791500664,7,1133.946878671646,"Mean, Standard Deviation, Skewness, Kurtosis, Energy, ASM, Correlation",,-0.0952380952380952,0.9428571428571432
+Standard_GA,0,2,0.9946808510638298,6,327.4711558818817,"Mean, Variance, Skewness, Contrast, ASM, Coarseness",,-0.1428571428571428,0.9085714285714288
+Standard_GA,0,3,0.990691489361702,8,399.6621656417847,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Correlation, Coarseness",,0.6071428571428573,0.8095238095238095
+Standard_GA,0,4,0.988031914893617,7,320.8402488231659,"Standard Deviation, Kurtosis, Contrast, Energy, ASM, Homogeneity, Dissimilarity",,0.1071428571428571,0.9642857142857146
+Standard_GA,1,0,0.9933598937583,10,411.91543316841125,"Variance, Standard Deviation, Skewness, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",,0.3555555555555555,0.8933333333333332
+Standard_GA,1,1,0.99601593625498,9,360.3232326507568,"Mean, Entropy, Skewness, Kurtosis, Energy, ASM, Dissimilarity, Correlation, Coarseness",,-0.2083333333333333,0.78
+Standard_GA,1,2,0.9946808510638298,8,365.2867543697357,"Mean, Variance, Standard Deviation, Skewness, Kurtosis, Contrast, Energy, Correlation",,-0.1706349206349206,0.8523809523809526
+Standard_GA,1,3,0.990691489361702,11,448.4935927391052,"Mean, Variance, Standard Deviation, Entropy, Skewness, Kurtosis, Contrast, Energy, ASM, Homogeneity, Correlation",,-0.1409090909090909,0.8581818181818182
+Standard_GA,1,4,0.9893617021276596,6,346.1547920703888,"Mean, Variance, Entropy, Kurtosis, Contrast, Coarseness",,0.2476190476190476,0.8857142857142858
+Standard_GA,2,0,0.9933598937583,8,455.8640325069428,"Standard Deviation, Kurtosis, Energy, ASM, Homogeneity, Dissimilarity, Correlation, Coarseness",,-0.119047619047619,0.8761904761904763
+Standard_GA,2,1,0.99867197875166,5,352.2140600681305,"Mean, Skewness, Kurtosis, ASM, Correlation",,0.4499999999999999,0.7999999999999999
+Standard_GA,2,2,0.9960106382978724,6,363.8274114131928,"Variance, Standard Deviation, Skewness, Contrast, Energy, Correlation",,0.3333333333333333,0.7257142857142856
+Standard_GA,2,3,0.9893617021276596,8,332.9727964401245,"Mean, Variance, Standard Deviation, Skewness, Kurtosis, Contrast, Energy, Coarseness",,-0.2896825396825397,0.7666666666666668
+Standard_GA,2,4,0.9893617021276596,7,339.1891076564789,"Mean, Variance, Kurtosis, Contrast, Energy, Correlation, Coarseness",,0.1845238095238095,0.9857142857142858
+NSGA2_Parsimony,0,0,0.9893758300132802,4,257.04154658317566,"Mean, Variance, Kurtosis, Energy",,0.5,1.0
+NSGA2_Parsimony,0,1,0.99601593625498,4,267.8351857662201,"Mean, Kurtosis, Energy, Correlation",,0.3,1.0
+NSGA2_Parsimony,0,2,0.990691489361702,6,318.9021964073181,"Mean, Variance, Skewness, Contrast, ASM, Coarseness",,0.8761904761904762,1.0
+NSGA2_Parsimony,0,3,0.9867021276595744,4,329.77357029914856,"Standard Deviation, Skewness, Contrast, Energy",,1.0,1.0
+NSGA2_Parsimony,0,4,0.988031914893617,5,319.53132677078247,"Variance, Kurtosis, ASM, Homogeneity, Correlation",,0.1166666666666666,0.6799999999999999
+NSGA2_Parsimony,1,0,0.9920318725099602,3,257.8173518180847,"Mean, Entropy, Kurtosis",,0.0,1.0
+NSGA2_Parsimony,1,1,0.99468791500664,4,322.98957800865173,"Mean, Variance, Entropy, Kurtosis",,0.0333333333333333,1.0
+NSGA2_Parsimony,1,2,0.990691489361702,5,318.3220865726471,"Standard Deviation, Entropy, Kurtosis, Contrast, Correlation",,-0.15,0.9199999999999996
+NSGA2_Parsimony,1,3,0.990691489361702,4,260.2801601886749,"Variance, Standard Deviation, Entropy, Kurtosis",,0.3,0.92
+NSGA2_Parsimony,1,4,0.988031914893617,5,331.6297957897186,"Variance, Kurtosis, Contrast, ASM, Correlation",,0.2833333333333332,0.8399999999999999
+NSGA2_Parsimony,2,0,0.9907038512616202,7,268.663046836853,"Mean, Standard Deviation, Entropy, Skewness, Kurtosis, Dissimilarity, Coarseness",,0.5833333333333334,0.7642857142857143
+NSGA2_Parsimony,2,1,0.99734395750332,5,271.6204462051392,"Mean, Skewness, Kurtosis, Energy, Correlation",,0.2666666666666666,0.98
+NSGA2_Parsimony,2,2,0.9933510638297872,6,344.98958802223206,"Mean, Variance, Kurtosis, Contrast, Energy, Correlation",,0.5904761904761905,0.8628571428571428
+NSGA2_Parsimony,2,3,0.9867021276595744,8,321.09991121292114,"Mean, Variance, Standard Deviation, Skewness, Kurtosis, Contrast, Energy, Correlation",,0.3730158730158731,0.9904761904761904
+NSGA2_Parsimony,2,4,0.985372340425532,3,252.42992210388184,"Variance, Entropy, Kurtosis",,0.0,1.0
+SHAP_RF,0,0,0.8419654714475432,6,4.900413274765015,"Mean, Mean, Mean, Variance, Variance, Variance",,-9.251858538542969e-18,-0.0742857142857142
+SHAP_RF,0,1,0.8313413014608234,6,5.00092339515686,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0095238095238095,0.7257142857142858
+SHAP_RF,0,2,0.8497340425531915,6,4.761528968811035,"Mean, Mean, Mean, Variance, Variance, Variance",,0.5428571428571428,-0.5200000000000001
+SHAP_RF,0,3,0.8218085106382979,6,4.605853080749512,"Mean, Mean, Mean, Variance, Variance, Variance",,0.1333333333333333,0.1657142857142857
+SHAP_RF,0,4,0.8231382978723404,6,4.76618242263794,"Mean, Mean, Mean, Variance, Variance, Variance",,1.8503717077085938e-17,0.4285714285714285
+SHAP_RF,1,0,0.849933598937583,6,5.041297435760498,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0761904761904762,0.0285714285714285
+SHAP_RF,1,1,0.8180610889774237,6,5.007912397384644,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0285714285714285,0.2
+SHAP_RF,1,2,0.8444148936170213,6,4.824563026428223,"Mean, Mean, Mean, Variance, Variance, Variance",,0.4476190476190477,-0.28
+SHAP_RF,1,3,0.8377659574468085,6,4.520984649658203,"Mean, Mean, Mean, Variance, Variance, Variance",,0.1047619047619047,0.3257142857142857
+SHAP_RF,1,4,0.8404255319148937,6,4.769044399261475,"Mean, Mean, Mean, Variance, Variance, Variance",,-0.1523809523809524,-0.2114285714285714
+SHAP_RF,2,0,0.8539176626826029,6,4.974378347396851,"Mean, Mean, Mean, Variance, Variance, Variance",,-0.2571428571428572,0.44
+SHAP_RF,2,1,0.8207171314741036,6,4.844516515731812,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0095238095238095,0.4057142857142858
+SHAP_RF,2,2,0.8444148936170213,6,4.707982063293457,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0761904761904762,-0.2685714285714285
+SHAP_RF,2,3,0.8257978723404256,6,4.4405059814453125,"Mean, Mean, Mean, Variance, Variance, Variance",,0.0285714285714285,0.36
+SHAP_RF,2,4,0.8231382978723404,6,4.797926425933838,"Mean, Mean, Mean, Variance, Variance, Variance",,-0.0571428571428571,0.3485714285714286
